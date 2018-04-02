@@ -6,6 +6,8 @@
 @import "../css/uswds.min.css";
 @import "variables";
 @import "base/all";
+@import "layouts/all";
+@import "includes/all";
 
 .clearfix {
   &::after {

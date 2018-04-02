@@ -1,0 +1,58 @@
+.site-header {
+  background: $va-dark-blue;
+  color: $color-white;
+
+  a {
+    color: $color-white;
+  }
+}
+
+.site-header-navbar {
+  padding-top: 1.2em;
+}
+
+.usa-header {
+  border-bottom: none;
+}
+
+.usa-navbar-inner {
+  @extend %container;
+}
+
+.usa-logo {
+  float: none;
+}
+
+.usa-logo-text {
+  font-size: 1.9em;
+  font-weight: 300;
+
+  .logo-agency {
+    font-weight: bold;
+  }
+}
+
+.usa-navigation {
+  margin-top: 2em;
+
+  a {
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.75em 1em;
+    text-decoration: none;
+    
+    &:hover {
+      background-color: $va-blue;
+
+    }
+  }
+  
+  li {
+    display: inline-block;
+    padding-right: 1em;
+  }
+
+  ul {
+    margin-left: -1em;
+  }
+}
