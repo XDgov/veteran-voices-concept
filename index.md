@@ -11,3 +11,37 @@ layout: default
     </div>
   </div>
 </div>
+<div class="trending-topics-container">
+  <div class="usa-grid">
+    <h1>Trending Topics</h1>
+    <ul class="usa-unstyled-list topic-list">
+      <li>
+        <div class="topic-category">Category</div>
+        <div class="topic-heading">Topic Heading</div>
+      </li>
+      <li>
+        <div class="topic-category">Category</div>
+        <div class="topic-heading">Topic Heading</div>
+      </li>
+      <li>
+        <div class="topic-category">Category</div>
+        <div class="topic-heading">Topic Heading</div>
+      </li>
+      <li>
+        <div class="topic-category">Category</div>
+        <div class="topic-heading">Topic Heading</div>
+      </li>
+      <li>
+        <div class="topic-category">Category</div>
+        <div class="topic-heading">Topic Heading</div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+
+
