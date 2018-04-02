@@ -1,0 +1,28 @@
+.search-container {
+  background-color: $color-gray-light;
+  padding: 5em 0;
+
+  .search-box {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 720px;
+  }
+
+  button {
+    margin-left: 1em;
+    margin-right: 0;
+    padding: 0.8em 1.4em;
+  }
+
+  input {
+    border: 1px solid darken($color-gray-light, 15);
+    display: inline-block;
+    max-width: none;
+    width: 600px;
+
+    &::placeholder {
+      color: darken($color-gray-light, 30);
+      font-weight: 300;
+    }
+  }
+}
