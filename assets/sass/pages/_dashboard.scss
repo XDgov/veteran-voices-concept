@@ -1,0 +1,47 @@
+h1 {
+  display: inline-block;
+  margin-top: 0;
+}
+
+.dashboard-filters {
+  float: right;
+
+  select {
+    border: 1px solid darken($census-background-color, 15);
+    font-size: 0.9em;
+    padding-right: 3.5rem;
+  }
+}
+
+.dashboard-row {
+  margin-bottom: 2em;
+}
+
+.page-background {
+  background-color: lighten($color-gray-light, 5);
+  padding-bottom: 4em;
+}
+
+.phrase-heading {
+  font-size: 1.25em;
+}
+
+.phrase-list {
+  
+  li {
+    margin-top: 1em;
+
+    &:first-child {
+      margin-top: 0.75em;
+    }
+  }
+}
+
+.phrase-sentiment {
+  color: darken($color-gray-light, 30);
+  font-size: 0.9em;
+
+  &.positive {
+    color: darken($va-green, 5);
+  }
+}

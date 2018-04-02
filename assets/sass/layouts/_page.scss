@@ -1,0 +1,12 @@
+.card {
+  @extend %card;
+  padding: 1em;
+}
+
+.page-container {
+  padding-top: 3em;
+
+  h1 {
+    font-size: 2em;
+  }
+}
