@@ -1,0 +1,79 @@
+a {
+  &:focus {
+    box-shadow: none;
+    outline: 2px dotted #aeb0b5;
+  }
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.usa-font-lead {
+  font-family: $font-sans;
+}
+
+.typography-card {
+  margin-bottom: 2rem;
+}
+
+.usa-accordion-button {
+  font-family: $font-sans;
+}
+
+.usa-font-lead {
+  margin-bottom: 1.25em;
+  line-height: 1.5em;
+  margin-top: 0.5em;
+}
+
+.usa-sidenav-list,
+.usa-serif {
+  a {
+    font-family: $font-sans;
+  }
+  li {
+    font-family: $font-sans;
+  }
+  p {
+    font-family: $font-sans;
+  }
+
+  span {
+    font-family: $font-sans;
+  }
+}
+
+html {
+  font-family: $font-sans;
+}
+
+[href^="http"] {
+  &:not([href*=".gov/"]) {
+    
+    &:hover {
+      &::after {
+        background-image: url("../img/external-link-hover.png");
+        background-image: url("../img/external-link-hover.svg");
+      }
+    }
+
+    &::after {
+      background: url("../img/external-link.png") no-repeat 0 0;
+      background: url("../img/external-link.svg") no-repeat 0 0;
+      background-size: 100%;
+      content: '';
+      display: inline-block;
+      height: 0.65em;
+      margin-bottom: -1px;
+      margin-left: 4px;
+      width: 0.65em;
+    }
+  }
+}
