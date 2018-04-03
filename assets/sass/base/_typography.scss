@@ -1,7 +1,19 @@
 a {
+  color: darken($va-blue, 10);
+  font-weight: bold;
+  text-decoration: none;
+
   &:focus {
     box-shadow: none;
     outline: 2px dotted #aeb0b5;
+  }
+
+  &:hover {
+    color: darken($va-blue, 20);
+  }
+
+  &:visited {
+    color: darken($va-blue, 10);
   }
 }
 
@@ -17,6 +29,10 @@ h5,
 h6,
 .usa-font-lead {
   font-family: $font-sans;
+
+  .normal {
+    font-weight: normal;
+  }
 }
 
 .typography-card {

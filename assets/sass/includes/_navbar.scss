@@ -29,6 +29,13 @@
   font-size: 1.7em;
   font-weight: 300;
 
+  &:hover {
+    
+    .logo-agency {
+      color: $usa-color-gold;
+    }
+  }
+
   .logo-agency {
     font-weight: bold;
   }
@@ -45,7 +52,10 @@
     
     &:hover {
       background-color: $va-blue;
+    }
 
+    &.usa-current {
+      background-color: $va-blue;
     }
   }
   

@@ -24,6 +24,7 @@ h1 {
 
 .phrase-heading {
   font-size: 1.25em;
+  line-height: 1.15em;
 }
 
 .phrase-list {
@@ -39,9 +40,13 @@ h1 {
 
 .phrase-sentiment {
   color: darken($color-gray-light, 30);
-  font-size: 0.9em;
+  font-size: 0.85em;
+
+  &.negative {
+    color: $va-red;
+  }
 
   &.positive {
-    color: darken($va-green, 5);
+    color: darken($va-green, 15);
   }
 }
