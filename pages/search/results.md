@@ -5,7 +5,7 @@ title: Results for Topic Name
 ---
 
 <div class="dashboard-header">
-  <h1><span class="normal">Results for</span> Topic Name</h1>
+  <h1><span class="normal">Results for</span> Queried Terms</h1>
   <div class="dashboard-filters">
     <select>
       <option>Last 24 Hours</option>

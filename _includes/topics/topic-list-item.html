@@ -1,0 +1,17 @@
+{% assign min = 51 %}
+{% assign max = 99 %}
+{% assign diff = max | minus: min %}
+{% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
+
+<li>
+  <div class="topic-category">{{ include.status }}</div>
+  <div class="topic-heading">
+    <a href="#topics">
+      {{ include.name }}
+    </a>
+  </div>
+  <div class="topic-sentiment {{ include.sentiment }}">
+    <strong>{{ randomNumber | append: "%" }}</strong>
+    {{ include.sentiment | capitalize }}
+  </div>
+</li>

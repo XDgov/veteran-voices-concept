@@ -38,15 +38,20 @@ h1 {
   }
 }
 
-.phrase-sentiment {
-  color: darken($color-gray-light, 30);
+.topic-sentiment {
+  color: darken($color-gray-light, 50);
   font-size: 0.85em;
 
   &.negative {
-    color: $va-red;
+
+    strong {
+      color: $va-red;
+    }
   }
 
   &.positive {
-    color: darken($va-green, 15);
+    strong {
+      color: darken($va-green, 15);
+    }
   }
 }

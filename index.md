@@ -15,46 +15,12 @@ layout: default
   <div class="usa-grid">
     <h1>Trending Topics</h1>
     <ul class="usa-unstyled-list topic-list">
-      <li>
-        <div class="topic-category">Category</div>
-        <div class="topic-heading">
-          <a href="#topics">
-            Topic Heading
-          </a>
-        </div>
-      </li>
-      <li>
-        <div class="topic-category">Category</div>
-        <div class="topic-heading">
-          <a href="#topics">
-            Topic Heading
-          </a>
-        </div>
-      </li>
-      <li>
-        <div class="topic-category">Category</div>
-        <div class="topic-heading">
-          <a href="#topics">
-            Topic Heading
-          </a>
-        </div>
-      </li>
-      <li>
-        <div class="topic-category">Category</div>
-        <div class="topic-heading">
-          <a href="#topics">
-            Topic Heading
-          </a>
-        </div>
-      </li>
-      <li>
-        <div class="topic-category">Category</div>
-        <div class="topic-heading">
-          <a href="#topics">
-            Topic Heading
-          </a>
-        </div>
-      </li>
+      {% include topics/topic-list-item.html name="Veterans ID Card" status="Top" sentiment="positive" url="dashboard" %}
+      {% include topics/topic-list-item.html name="Veterans ID Card" status="Emerging" sentiment="negative" url="dashboard" %}
+      {% include topics/topic-list-item.html name="Veterans ID Card" status="Emerging" sentiment="positive" url="dashboard" %}
+      {% include topics/topic-list-item.html name="Veterans ID Card" status="Top" sentiment="positive" url="dashboard" %}
+      {% include topics/topic-list-item.html name="Veterans ID Card" status="Emerging" sentiment="negative" url="dashboard" %}
+      {% include topics/topic-list-item.html name="Veterans ID Card" status="Top" sentiment="positive" url="dashboard" %}
     </ul>
   </div>
 </div>
