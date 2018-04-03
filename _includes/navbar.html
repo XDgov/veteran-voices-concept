@@ -13,10 +13,20 @@
     </div>
     <div class="usa-navbar-inner">
       <nav class="usa-navigation">
-        <ul class="usa-unstyled-list">
-          {% include nav/nav-list-item.html name="Dashboard" file_path="dashboard.md" url="dashboard" %}
-          <li>
-            <a href="#">Analytics Report</a>
+        <ul class="usa-unstyled-list top-level-list">
+          <li class="dashboards parent-li">
+            <a href="{{ site.baseurl }}/dashboards" class="dropdown-parent">
+              Dashboards
+            </a>
+
+            <ul class="usa-unstyled-list dropdown">
+              <li>
+                <a href="#">Create a Dashboard</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}/dashboard">Example Dashboard</a>
+              </li>
+            </ul>
           </li>
           <li>
             <a href="#">Generate a Report</a>

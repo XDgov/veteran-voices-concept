@@ -44,27 +44,85 @@
 .usa-navigation {
   margin-top: 2em;
 
-  a {
-    display: inline-block;
-    font-weight: bold;
-    padding: 0.75em 1em;
-    text-decoration: none;
-    
-    &:hover {
-      background-color: $va-blue;
-    }
 
-    &.usa-current {
-      background-color: $va-blue;
-    }
-  }
-  
-  li {
-    display: inline-block;
-    padding-right: 1em;
-  }
-
-  ul {
+  .top-level-list {
     margin-left: -1em;
+
+    > li {
+      display: inline-block;
+      margin-right: 1em;
+      position: relative;
+
+      &:first-child {
+        a {
+          background-image: url("../img/angle-arrow-down-hover.png");
+          background-position: right 1.6rem center;
+          background-size: 1.2rem auto;
+          background-repeat: no-repeat;
+          padding-right: 2.2em;
+        }
+      }
+
+      > a {
+        display: inline-block;
+        font-weight: bold;
+        padding: 0.75em 1em;
+        text-decoration: none;
+        
+        &:hover {
+          background-color: $va-blue;
+        }
+
+        &.usa-current {
+          background-color: $va-blue;
+        }
+      }
+
+      li {
+        margin: 0.5em 0;
+
+        &:first-child {
+          border-bottom: 1px solid lighten($va-dark-gray, 60);
+          padding-bottom: 0.75em;
+        }
+
+        a {
+          font-weight: normal;
+        }
+      }
+    }
+  }
+
+  .dropdown {
+    background-color: $color-white;
+    border: 1px solid lighten($va-dark-gray, 60);
+    color: $va-dark-gray;
+    left: 0;
+    opacity: 0;
+    padding: 0.5em;
+    position: absolute;
+    top: 3em;
+    width: 220px;
+    visibility: hidden;
+    z-index: 100;
+
+    &.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    a {
+      color: $va-blue;
+      display: inline-block;
+      width: 100%;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    li {
+      font-size: 0.9em;
+    }
   }
 }

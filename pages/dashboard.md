@@ -1,11 +1,11 @@
 ---
 permalink: /dashboard/
 layout: page
-title: Dashboard
+title: Example Dashboard
 ---
 
 <div class="dashboard-header">
-  <h1>Dashboard</h1>
+  <h1>Example Dashboard</h1>
   <div class="dashboard-filters">
     <select>
       <option>Last 24 Hours</option>
