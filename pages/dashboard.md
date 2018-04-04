@@ -16,73 +16,63 @@ title: Example Dashboard
   </div>
 </div>
 <div class="dashboard-row clearfix">
-  <div class="usa-width-two-thirds">
-    <div class="card">
-      <div class="card-heading">Top & Emerging Conversations</div>
-      <ul class="usa-unstyled-list phrase-list">
-        <li>
-          <div class="phrase-heading">
-            “This is a phrase that is significant.”
-          </div>
-          <div class="phrase-sentiment positive">
-            68% Positive
-          </div>
-        </li>
-        <li>
-          <div class="phrase-heading">
-            “This is a phrase that is significant.”
-          </div>
-          <div class="phrase-sentiment positive">
-            68% Positive
-          </div>
-        </li>
-        <li>
-          <div class="phrase-heading">
-            “This is a phrase that is significant.”
-          </div>
-          <div class="phrase-sentiment positive">
-            68% Positive
-          </div>
-        </li>
-        <li>
-          <div class="phrase-heading">
-            “This is a phrase that is significant.”
-          </div>
-          <div class="phrase-sentiment positive">
-            68% Positive
-          </div>
-        </li>
-        <li>
-          <div class="phrase-heading">
-            “This is a phrase that is significant.”
-          </div>
-          <div class="phrase-sentiment positive">
-            68% Positive
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="usa-width-one-third">
-    <div class="card">
-      <div class="card-heading">Sentiment</div>
-    </div>
+  <div class="card">
+    <div class="card-heading">Top & Emerging Conversations</div>
+    <ul class="usa-unstyled-list phrase-list">
+      <li>
+        <div class="phrase-heading">
+          “This is a phrase that is significant.”
+        </div>
+        <div class="phrase-sentiment positive">
+          68% Positive
+        </div>
+      </li>
+      <li>
+        <div class="phrase-heading">
+          “This is a phrase that is significant.”
+        </div>
+        <div class="phrase-sentiment positive">
+          68% Positive
+        </div>
+      </li>
+      <li>
+        <div class="phrase-heading">
+          “This is a phrase that is significant.”
+        </div>
+        <div class="phrase-sentiment positive">
+          68% Positive
+        </div>
+      </li>
+      <li>
+        <div class="phrase-heading">
+          “This is a phrase that is significant.”
+        </div>
+        <div class="phrase-sentiment positive">
+          68% Positive
+        </div>
+      </li>
+      <li>
+        <div class="phrase-heading">
+          “This is a phrase that is significant.”
+        </div>
+        <div class="phrase-sentiment positive">
+          68% Positive
+        </div>
+      </li>
+    </ul>
   </div>
 </div>
 <div class="dashboard-row clearfix">
-  <div class="usa-width-one-third">
+  <div class="usa-width-one-half">
     <div class="card">
-      <div class="card-heading">Heading</div>
+      <div class="card-heading">Projected News Trajectory</div>
+      <img src="{{ site.baseurl }}/assets/img/figures/dashboard-trajectory.png" alt="News Trajectory Visualization">
     </div>
   </div>
-  <div class="usa-width-one-third">
+  <div class="usa-width-one-half">
     <div class="card">
-      <div class="card-heading">Heading</div>
-    </div>
-  </div>
-  <div class="usa-width-one-third">
-    <div class="card">
-      <div class="card-heading">Heading</div>
+      <div class="card-heading">Positive Sentiment by Platform</div>
+      <img src="{{ site.baseurl }}/assets/img/figures/dashboard-sentiment.png" alt="Positive Sentiment by Platform">
     </div>
   </div>
 </div>
