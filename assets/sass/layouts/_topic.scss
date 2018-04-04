@@ -1,15 +1,13 @@
-.page-topic {
-  table {
-    td {
-      border: none;
-      padding: 0;
-    }
-  }
+.layout-topic {
 
   .list-subheading {
     color: lighten($va-dark-gray, 20);
     font-size: 0.8em;
     font-weight: bold;
     margin-top: 1em;
+  }
+  
+  .topic-subheading {
+    font-size: 0.9em;
   }
 }

@@ -7,7 +7,7 @@ layout: default
   <div class="usa-grid">
     <div class="search-box">
       <input type="text" placeholder="Search topics, dates, or categories">
-      <a class="usa-button" href="{{ site.baseurl }}/search/results">Search</a>
+      <a class="usa-button" href="{{ site.baseurl }}/topics/transition-year">Search</a>
     </div>
   </div>
 </div>

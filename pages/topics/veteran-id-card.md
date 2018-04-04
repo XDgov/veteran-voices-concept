@@ -1,11 +1,12 @@
 ---
-permalink: /topics/topic
-layout: page
-title: Topic
+permalink: /topics/veteran-id-card
+layout: topic
+title: Veteran ID Card
 ---
 
 <div class="dashboard-header">
-  <h1>Topic Example</h1>
+  <div class="topic-subheading">Topic</div>
+  <h1>Veteran ID Card</h1>
   <div class="dashboard-filters">
     <select>
       <option>Last 24 Hours</option>
@@ -96,19 +97,16 @@ title: Topic
   </div>
 </div>
 <div class="dashboard-row clearfix">
-  <div class="usa-width-one-third">
+  <div class="usa-width-one-half">
     <div class="card">
-      <div class="card-heading">Heading</div>
+      <div class="card-heading">Projected News Trajectory</div>
+      <img src="{{ site.baseurl }}/assets/img/figures/dashboard-trajectory.png" alt="News Trajectory Visualization">
     </div>
   </div>
-  <div class="usa-width-one-third">
+  <div class="usa-width-one-half">
     <div class="card">
-      <div class="card-heading">Heading</div>
-    </div>
-  </div>
-  <div class="usa-width-one-third">
-    <div class="card">
-      <div class="card-heading">Heading</div>
+      <div class="card-heading">Positive Sentiment by Platform</div>
+      <img src="{{ site.baseurl }}/assets/img/figures/dashboard-sentiment.png" alt="Positive Sentiment by Platform">
     </div>
   </div>
 </div>
