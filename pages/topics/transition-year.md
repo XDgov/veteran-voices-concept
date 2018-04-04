@@ -23,10 +23,26 @@ title: Transition Year
       <ul class="usa-unstyled-list phrase-list">
         <li>
           <div class="phrase-heading">
-            “This is a phrase that is significant.”
+            “NY Office of Patient Advocacy.”
           </div>
           <div class="phrase-sentiment positive">
-            68% Positive
+            <strong>72%</strong> Positive
+          </div>
+        </li>
+        <li>
+          <div class="phrase-heading">
+            “American Corporate Partnership California.”
+          </div>
+          <div class="phrase-sentiment positive">
+            <strong>58%</strong> Positive
+          </div>
+        </li>
+        <li>
+          <div class="phrase-heading">
+            “Voc Rehab.”
+          </div>
+          <div class="phrase-sentiment negative">
+            <strong>51%</strong> Negative
           </div>
         </li>
         <li>
@@ -34,31 +50,15 @@ title: Transition Year
             “This is a phrase that is significant.”
           </div>
           <div class="phrase-sentiment positive">
-            68% Positive
+            <strong>68%</strong> Positive
           </div>
         </li>
         <li>
           <div class="phrase-heading">
-            “This is a phrase that is significant.”
+            “Suicide rate.”
           </div>
-          <div class="phrase-sentiment positive">
-            68% Positive
-          </div>
-        </li>
-        <li>
-          <div class="phrase-heading">
-            “This is a phrase that is significant.”
-          </div>
-          <div class="phrase-sentiment positive">
-            68% Positive
-          </div>
-        </li>
-        <li>
-          <div class="phrase-heading">
-            “This is a phrase that is significant.”
-          </div>
-          <div class="phrase-sentiment positive">
-            68% Positive
+          <div class="phrase-sentiment negative">
+            <strong>84%</strong> Negative
           </div>
         </li>
       </ul>
@@ -74,23 +74,23 @@ title: Transition Year
           </div>
           Emerging
         </li>
-        <li>
+        <li class="positive">
           <div class="list-subheading">
             Overall Sentiment
           </div>
-          68% Positive
+          <strong>68%</strong> Positive
         </li>
-        <li>
+        <li class="positive">
           <div class="list-subheading">
             Twitter Sentiment
           </div>
-          74% Positive
+          <strong>74%</strong> Positive
         </li>
-        <li>
+        <li class="positive">
           <div class="list-subheading">
             Facebook Sentiment
           </div>
-          56% Positive
+          <strong>56%</strong> Positive
         </li>
       </ul>
     </div>

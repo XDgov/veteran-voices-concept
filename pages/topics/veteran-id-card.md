@@ -23,42 +23,42 @@ title: Veteran ID Card
       <ul class="usa-unstyled-list phrase-list">
         <li>
           <div class="phrase-heading">
-            “This is a phrase that is significant.”
+            “Card benefits”
           </div>
           <div class="phrase-sentiment positive">
-            68% Positive
+            <strong>54%</strong> Positive
           </div>
         </li>
         <li>
           <div class="phrase-heading">
-            “This is a phrase that is significant.”
+            “Logan airport USO.”
           </div>
           <div class="phrase-sentiment positive">
-            68% Positive
+            <strong>68%</strong> Positive
           </div>
         </li>
         <li>
           <div class="phrase-heading">
-            “This is a phrase that is significant.”
+            “vets.gov”
           </div>
           <div class="phrase-sentiment positive">
-            68% Positive
+            <strong>72%</strong> Positive
           </div>
         </li>
         <li>
           <div class="phrase-heading">
-            “This is a phrase that is significant.”
+            “NY VA”
           </div>
-          <div class="phrase-sentiment positive">
-            68% Positive
+          <div class="phrase-sentiment negative">
+            <strong>53%</strong> Negative
           </div>
         </li>
         <li>
           <div class="phrase-heading">
-            “This is a phrase that is significant.”
+            “DD214”
           </div>
-          <div class="phrase-sentiment positive">
-            68% Positive
+          <div class="phrase-sentiment negative">
+            <strong>51%</strong> Negative
           </div>
         </li>
       </ul>
@@ -74,23 +74,23 @@ title: Veteran ID Card
           </div>
           Emerging
         </li>
-        <li>
+        <li class="positive">
           <div class="list-subheading">
             Overall Sentiment
           </div>
-          68% Positive
+          <strong>68%</strong> Positive
         </li>
-        <li>
+        <li class="positive">
           <div class="list-subheading">
             Twitter Sentiment
           </div>
-          74% Positive
+          <strong>74%</strong> Positive
         </li>
-        <li>
+        <li class="positive">
           <div class="list-subheading">
             Facebook Sentiment
           </div>
-          56% Positive
+          <strong>56%</strong> Positive
         </li>
       </ul>
     </div>
