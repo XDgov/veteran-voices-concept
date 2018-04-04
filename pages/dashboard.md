@@ -21,42 +21,42 @@ title: Example Dashboard
     <ul class="usa-unstyled-list phrase-list">
       <li>
         <div class="phrase-heading">
-          “This is a phrase that is significant.”
+          “NY Office of Patient Advocacy.”
         </div>
         <div class="phrase-sentiment positive">
-          68% Positive
+          <strong>72%</strong> Positive
         </div>
       </li>
       <li>
         <div class="phrase-heading">
-          “This is a phrase that is significant.”
+          “American Corporate Partnership California.”
         </div>
         <div class="phrase-sentiment positive">
-          68% Positive
+          <strong>58%</strong> Positive
         </div>
       </li>
       <li>
         <div class="phrase-heading">
-          “This is a phrase that is significant.”
+          “NY VA”
         </div>
-        <div class="phrase-sentiment positive">
-          68% Positive
-        </div>
-      </li>
-      <li>
-        <div class="phrase-heading">
-          “This is a phrase that is significant.”
-        </div>
-        <div class="phrase-sentiment positive">
-          68% Positive
+        <div class="phrase-sentiment negative">
+          <strong>53%</strong> Negative
         </div>
       </li>
       <li>
         <div class="phrase-heading">
-          “This is a phrase that is significant.”
+          “Card benefits”
         </div>
         <div class="phrase-sentiment positive">
-          68% Positive
+          <strong>54%</strong> Positive
+        </div>
+      </li>
+      <li>
+        <div class="phrase-heading">
+          “Logan airport USO.”
+        </div>
+        <div class="phrase-sentiment positive">
+          <strong>68%</strong> Positive
         </div>
       </li>
     </ul>
