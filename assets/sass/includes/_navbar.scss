@@ -21,6 +21,27 @@
   @extend %container;
   position: relative;
 
+  .autocomplete {
+    background-color: $color-white;
+    color: $va-dark-gray;
+    opacity: 0;
+    padding: 0.75em;
+    visibility: hidden;
+    z-index: 1000;
+
+    &.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    a {
+      color: $va-blue;
+      display: inline-block;
+      font-size: 0.9em;
+      width: 100%;
+    }
+  }
+
   .nav-right{
     float: right;
     padding-top: 0.5em;

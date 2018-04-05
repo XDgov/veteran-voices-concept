@@ -1,6 +1,7 @@
 (function() {
   var dropdownParents = document.getElementsByClassName("dropdown-parent"),
-      searchButton = document.getElementById("nav-search-button");
+      searchButton = document.getElementById("nav-search-button"),
+      searchInput = document.getElementById("nav-search-input");
 
   document.querySelectorAll('.dropdown-parent').forEach(function(a) {
 
@@ -15,6 +16,16 @@
     event.preventDefault();
     showSearchBar(event);
   });
+ 
+  searchInput.oninput = function() { showAutoComplete() };
+
+  function showAutoComplete() {
+    var autoComplete = document.getElementById("autocomplete");
+
+    console.log("add class");
+
+    autoComplete.classList.add("active");
+  };
 
   function showDropdown(a) {
     var dropdown = a.target.nextElementSibling;
